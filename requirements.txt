@@ -3,4 +3,6 @@ pandas
 flask
 seaborn
 scikit-learn
--e .
+ipywidgets
+jupyter
+#-e .
