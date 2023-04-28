@@ -26,7 +26,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info('Data Ingestion methods Starts')
         try:
-            df=pd.read_csv(os.path.join('notebooks/data','zomato.csv'))
+            df=pd.read_csv(os.path.join('notebooks/data/finalTrain.csv'))
             logging.info('Dataset read as pandas dataframe')
 
             

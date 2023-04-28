@@ -36,9 +36,7 @@ class ModelTrainer:
                 'LinearRegression':LinearRegression(),
                 'Lasso':Lasso(),
                 'Ridge':Ridge(),
-                'ElasticNet':ElasticNet(),
-                'RandomForestRegressor':RandomForestRegressor(),
-                'DecisionTreeRegressor' : DecisionTreeRegressor()
+                'ElasticNet':ElasticNet()
             }
 
             model_report:dict=evaluate_model(X_train, y_train, X_test, y_test, models)
